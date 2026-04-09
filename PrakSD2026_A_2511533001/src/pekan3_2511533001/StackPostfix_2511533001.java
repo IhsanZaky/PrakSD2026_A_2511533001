@@ -10,16 +10,16 @@ public class StackPostfix_2511533001 {
 				s_3001.push (input.nextInt());
 			} else {
 				String operator = input.next();
-				int operand2 = s_3001.pop();
-				int operand1 = s_3001.pop();
+				int operand2_3001 = s_3001.pop();
+				int operand1_3001 = s_3001.pop();
 				if (operator.equals("+")) {
-					s_3001.push (operand1 + operand2);
+					s_3001.push (operand1_3001 + operand2_3001);
 				}else if (operator.equals("-")) {
-					s_3001.push (operand1 - operand2);
+					s_3001.push (operand1_3001 - operand2_3001);
 				}else if (operator.equals("*")) {
-					s_3001.push (operand1 * operand2);
+					s_3001.push (operand1_3001 * operand2_3001);
 				}else {
-					s_3001.push (operand1 / operand2);
+					s_3001.push (operand1_3001 / operand2_3001);
 				}
 			}
 		}
