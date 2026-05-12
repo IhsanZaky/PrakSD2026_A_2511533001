@@ -1,6 +1,6 @@
 package pekan5_2511533001;
 
-class NodeSLL_2511533001 {
+class NodeSLL_2511533001{
     int data_3001;
     NodeSLL_2511533001 next_3001;
 
@@ -23,7 +23,8 @@ public class TambahSLL_2511533001 {
     public static NodeSLL_2511533001 insertAtEnd_3001(NodeSLL_2511533001 head_3001, int value_3001) {
         NodeSLL_2511533001 newNode_3001 = new NodeSLL_2511533001(value_3001);
 
-        if (head_3001 == null) return newNode_3001;
+        if (head_3001 == null) 
+        	return newNode_3001;
 
         NodeSLL_2511533001 temp_3001 = head_3001;
         while (temp_3001.next_3001 != null) {
